@@ -1,3 +1,4 @@
+/* setting up variables */
 :root{
   --darkTeal: rgb(0, 54, 54)
 }
@@ -35,6 +36,7 @@ p{
                   1px -1px 0 #000, 
                   -1px -1px 0 #000;
 }
+/*sets up the header with appropriate links to the right */
 .titleBar {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -80,6 +82,7 @@ a:hover {
   background-size: cover;
   background-position: center;
 }
+
 .portfolio {
     display: flex;
     flex-wrap: wrap;
@@ -89,12 +92,13 @@ a:hover {
     /* margin-left: -1.5rem; not sure if we need this yet, copy and pasted*/
     /* margin-right: -1.5rem; not sure if we need this yet, copy and pasted*/
   }
-
+/*used to anchor the title sections to the right 25% of the screen */
 .section-title{
     width:25%;
     justify-content:flex-end;
 
 }
+/*used to anchor the sections content to the right 75% of the screen*/
 .section-content{
    display:flex;
    flex-wrap:wrap;
@@ -107,12 +111,15 @@ a:hover {
 .section-content p {
 width:100%;
 }
+/*used to anchor the title sections to the right 25% of the screen */
 .card-title{
         position: relative;
         /* margin-left: -20px; */
         Justify-content:flex-start;
         margin:20px;
     }
+
+  /*sets up flexbox for 4 minor cards - could not keep it from wrapping 3 and 1 on larger screens */
  .card-column {
     flex: 1 0 50%;
      flex:25%;
@@ -126,14 +133,14 @@ width:100%;
     
   }
 
-
+/*keeps the main project card filling up the flex area and not wrapping with the 4 minor cards*/
 .main-card{
   flex:0 0 100%;
   Height:300px;
   border:5px solid royalblue;
   margin:20px;
 }
-  
+  /* repeating the header styling to remove teal background, but keep the <li> anchored to the right */
 .endBar {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -173,7 +180,15 @@ width:100%;
     text-decoration: underline;
   }
 
-@media screen 
+  /* intended to change the 4 minor cards to 1 column when media screen size is less than 600 px */
+/* @media screen and (max-width:600px){
 .card-column {
-  flex: 1 0 50%;
-   flex:25%;
+  display:block;
+}
+}*/
+/*used to block the links in the top right of the header under the title on smaller screens*/
+/*@media screen and (max-width:600px){
+  .titleBar {
+    display:block;
+  }
+} */
