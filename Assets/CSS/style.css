@@ -60,7 +60,14 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
-
+.hero {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../Images/Headshot_TPR.PNG");
+  background-size: cover;
+  background-position: center;
+}
 .portfolio {
     display: flex;
     flex-wrap: wrap;
@@ -80,7 +87,7 @@ a {
    flex-direction: row;
     width:75%;
     border-left:5px solid teal; 
-    justify-content:flex-end;
+    /* justify-content:flex-end; */
 }
 .card-title{
         position: relative;
@@ -88,7 +95,7 @@ a {
         Justify-content:flex-start;
     }
  .card-column {
-    flex: 1 0 300px;
+    flex: 1 0 50%;
      /* flex:25%; */
     padding: 1.5rem;
     /* when the screen resizes, make it so our columns don't jump in size */
@@ -98,8 +105,18 @@ a {
     /* min-width:0; */
     
   }
+
+  .card-column > h2{
+    width:50%
+  }
+  .card-column > div{
+    display:flex;
+    width:50%
+  }
+
 .main-card{
   flex:0 0 100%;
+  Height:300px;
   border:5px solid royalblue;
 }
   
