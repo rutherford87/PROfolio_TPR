@@ -19,4 +19,4 @@ Here is a screenshot of version1.2 of 1.n:
 
 This was challenging but enjoyable. I am sure as I build on the page i'll also find it rewarding.
 
-Thanks for visiting!
+Thanks for visiting!!
