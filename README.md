@@ -15,7 +15,7 @@ The repo can be found here:
 The website can be viewed here: [PROfolio by TRutherford](https://rutherford87.github.io/PROfolio_TPR/)
 
 Here is a screenshot of version1.2 of 1.n:
-![Version1.2](./Assets/images/PROfoliov1.PNG)
+![Version1.2](./Assets/Images/PROfoliov1.PNG)
 
 This was challenging but enjoyable. I am sure as I build on the page i'll also find it rewarding.
 
