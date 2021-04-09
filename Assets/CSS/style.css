@@ -140,6 +140,12 @@ width:100%;
   border:5px solid royalblue;
   margin:20px;
 }
+
+.main-card a{
+  color:black;
+  text-decoration: underline;
+    
+}
   /* repeating the header styling to remove teal background, but keep the <li> anchored to the right */
 .endBar {
   padding: 20px;
